@@ -59,3 +59,52 @@ nav .menu a{
   color: #474747;
 }
 
+#bannar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 46px 38px 0px 230px;
+}
+
+#bannar .bannar_content{
+  max-width: 585px;
+}
+#bannar .bannar_content h2 {
+font-size: 45px;
+color: #474747;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+#bannar .bannar_content h3 {
+
+  font-size: 85px;
+  color: #181818;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#bannar .bannar_content p {
+
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+ .button{
+  background-color: #FD6E0A;
+  padding: 19px 17px 18px 51px;
+ border: none;
+ border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+ }
+ .button_2{
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FD6E0A;
+  padding: 19px 23px 18px 58px;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+ }
