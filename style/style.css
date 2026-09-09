@@ -35,6 +35,9 @@ box-sizing: border-box;}
 
 header{
   background-color: #FFF8F3;
+  background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
 padding-top: 50px;
 }
 
@@ -107,4 +110,10 @@ margin-bottom: 5px;
   padding: 19px 23px 18px 58px;
   border: 1px solid #FD6E0A;
   border-radius: 5px;
+ }
+
+ #bannar .bannar_image img{
+  width: 584px;
+  height: 676px;
+  vertical-align: middle;
  }
