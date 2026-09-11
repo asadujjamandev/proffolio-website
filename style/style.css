@@ -52,6 +52,10 @@ box-sizing: border-box;}
   line-height: 30px;
   margin-bottom: 30px;
 }
+
+.text_center{
+  text-align: center;
+}
 /* Main style */
 
 header{
@@ -208,4 +212,49 @@ margin-bottom: 5px;
   font-size: 16px;
   line-height: 28px;
   color: #757575;
+}
+#resume{
+  padding-top: 130px;
+}
+#resume .resume_container{
+  width: 71%;
+  max-width: 1140px;
+margin: 113px auto 0px;
+display: flex;
+gap: 24px;
+}
+.resume_container hr{
+  margin: 30px 0px;
+  color: #D1D1D1;
+  font-weight: 1px;
+  max-width: 558px;
+}
+.resume_container .section-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.card-container{
+  max-width: 511px;
+  margin-right: 47px;
+}
+.card-container .card_title{
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.card-container .card_info{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.card-container .card_text{
+max-width: 511px;
+font-size: 16;
+font-weight: 400;
+color: #757575;
 }
