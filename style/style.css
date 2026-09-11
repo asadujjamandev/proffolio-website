@@ -31,6 +31,26 @@ box-sizing: border-box;}
   border-radius: 5px;
 
 }
+
+.section_heading{
+  max-width: 827px;
+  text-align: center;
+}
+
+.section_heading h2{
+  font-size: 35px;
+  color: #181818;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section_heading p{
+  font-size: 18px;
+  color: #757575;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
 /* Main style */
 
 header{
@@ -116,4 +136,34 @@ margin-bottom: 5px;
   width: 584px;
   height: 676px;
   vertical-align: middle;
+ }
+
+ #about{
+  padding-top: 130px;
+ }
+
+ #about .section_container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+ }
+
+ #about .section_container .about_info{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .about_info .card_info p{
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+ }
+ .about_info .card_info h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+  line-height: 30px;
  }
