@@ -258,3 +258,70 @@ font-size: 16;
 font-weight: 400;
 color: #757575;
 }
+footer{
+  margin-top: 113px;
+  background-color: #FFF8F3;
+padding: 130px 0px;
+}
+
+footer .footer_conatiner{
+  display: flex;
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 117px;
+}
+
+.footer_conatiner .social{
+  max-width: 562px;
+}
+.footer_conatiner h2{
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer_conatiner p{
+  max-width: 562px;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.footer_conatiner .icon a{
+  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.form .name{
+  width: 461px;
+  padding: 18px 349px 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+line-height: 28px;
+
+}
+.form .email{
+  width: 461px;
+  padding: 18px 349px 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+color: #757575;
+line-height: 28px;
+}
+
+.form .text{
+  width: 461px;
+  padding: 18px 365px 134px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+color: #757575;
+line-height: 28px;
+}
